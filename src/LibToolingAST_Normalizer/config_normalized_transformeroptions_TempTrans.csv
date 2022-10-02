@@ -1,0 +1,4 @@
+transformer,option,family,uniqueid,fillcmdlineoptions,Python-class,Specific-Arguments
+declname_transformer,,template,DeclNam:variable,from_declname;into_declname;seed,AddTemplateTransformer/VarFctNameTransformer,decl-names-list/decl-names-list
+declname_transformer,,template,DeclNam:function,from_declname;into_declname;seed,AddTemplateTransformer/VarFctNameTransformer,decl-names-list/decl-names-list
+global_const_transformer,,template,GlobalConst,percofincludes=0.1,AddTemplateTransformer/GlobalConstTransformer,decl-names-list/decl-names-list

@@ -1,0 +1,8 @@
+transformer,option,family,uniqueid,fillcmdlineoptions,Python-class,Specific-Arguments,
+input_cplusplusstyle_transformer,-strategy=ifstreamtocin,api,InputCpp:ifstreamtocin,seed;all,base,
+output_cplusplusstyle_transformer,-strategy=ofstreamtocout,api,Cout:ofstreamtocout,seed;all,base,
+input_cstyle_transformer,-strategy=scanftocin,api,InputC:scanftocin,seed;all,base,
+output_cstyle_transformer,-strategy=printftocout,api,Printf:printftocout,seed;all,base,
+sync_with_stdio_transformer,-strategy=change_syncwithstdio,api,Sync:syncwithstdio,,base,
+output_cstyle_transformer,-strategy=freopentostdout,api,Printf:freopentostdout,seed;all,base,
+input_cstyle_transformer,-strategy=freopentostdin,api,InputC:freopentostdin,seed;all,base,
