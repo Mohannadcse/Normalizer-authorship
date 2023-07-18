@@ -43,4 +43,15 @@ The normalizer has been developed to normalize code transformations defined [her
 
 # Citation 
 If you are using our implementation, please cite our NeurIPS '22 paper. You may use the following BibTex entry:
+```
+@inproceedings{
+wang2022robust,
+title={Robust Learning against Relational Adversaries},
+author={Yizhen Wang and Mohannad Alhanahnah and Xiaozhu Meng and Ke Wang and Mihai Christodorescu and Somesh Jha},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=WBp4dli3No6}
+}
+```
 
